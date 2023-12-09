@@ -40,7 +40,7 @@ function App() {
       <BrowserRouter>
       <Routes>
       <Route path="/" eleemnt={<Home/>}>
-          <Route index element={<Home />} />
+          <Route index path="/resume-website" element={<Home />} />
           <Route path="/projects" element={<SectionName title="Projects" text={projects} />} />
           <Route path="/education" element={<SectionName title="Education" text={education} />} />
           <Route path="/contact" element={<SectionName title="Contact" text="TESTContact" />} />
